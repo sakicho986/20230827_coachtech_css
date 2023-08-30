@@ -10,19 +10,21 @@ header{
     font-weight: bold;
 }
 
-.top-header__nav-list{
+.top-header__nav-list {
     margin-left: 40px;
 }
 
 .contents-img{
     position: relative;
     top: 0;
-    left: 60%;
+    left: 40%;
+    width: 90%;
 }
 
 img{
     position: absolute;
     z-index: 10;
+    max-width: 100%;
 }
 
 .contents-box{
@@ -31,12 +33,12 @@ img{
     right: 80%;
     z-index: 0;
     background-color: blue;
-    width: 3000px;
+    width: 70%;
     height: 300px;
 }
 
 p{
-    font-size: 80px;
+    font-size: 400%;
     position: absolute;
-    top: 30%;
+    top: 33%;
 }
