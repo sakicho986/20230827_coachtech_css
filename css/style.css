@@ -2,6 +2,11 @@ header{
     display: flex;
     justify-content: space-between;
     color: #00008b;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 40px;
 }
 
 .top-header__nav{
@@ -16,29 +21,29 @@ header{
 
 .contents-img{
     position: relative;
-    top: 0;
-    left: 40%;
-    width: 90%;
 }
 
-img{
+.contents-img img{
     position: absolute;
     z-index: 10;
-    max-width: 100%;
+    top: 100px;
+    left: 50vw;
+    height: 700px;
+    width: 80vw;
 }
 
 .contents-box{
     position: absolute;
     top: 550px;
-    right: 80%;
+    left: 0px;
     z-index: 0;
     background-color: blue;
-    width: 70%;
-    height: 300px;
+    width: 80vw;
+    height: 400px;
 }
 
 p{
-    font-size: 400%;
+    font-size: 80px;
     position: absolute;
-    top: 33%;
+    top: 42%;
 }
