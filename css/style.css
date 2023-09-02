@@ -29,12 +29,12 @@ h1{
     top: 100px;
     left: 50vw;
     height: 700px;
-    width: 80vw;
+    width: 50%;
 }
 
 .contents-box{
     position: absolute;
-    top: 550px;
+    top: 670px;
     left: 0px;
     z-index: 0;
     background-color: blue;
@@ -45,5 +45,5 @@ h1{
 p{
     font-size: 80px;
     position: absolute;
-    top: 42%;
+    top: 40%;
 }
